@@ -52,18 +52,21 @@
       <div class="w3-bar w3-white w3-card" id="myNavbar"> <a href="#home" class="w3-bar-item w3-teal w3-button w3-wide">Sedra
           Center</a>
         <!-- Right-sided navbar links -->
+        <div class="w3-right"> <a href="Index_ar.html" class="w3-bar-item w3-button w3-teal">
+          العربية</a>
+        </div>
         <div class="w3-right w3-hide-small"> <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
           <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>
             Courses</a> <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>
             PRICING</a> <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>
             CONTACT</a>
-            <a href="Index_ar.html" class="w3-bar-item w3-button">
-              العربية</a>
           </div>
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
 
-          onclick="w3_open()"> </a> </div>
+          onclick="w3_open()"> </a>
+
+        </div>
     </div>
     <!-- Sidebar on small screens when clicking the menu icon -->
     <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
@@ -204,7 +207,7 @@
         Courses </div>
       <div class="w3-quarter"> <span class="w3-xxlarge">55+</span> <br>
         Teachers </div>
-      <div class="w3-quarter"> <span class="w3-xxlarge">2313+</span> <br>
+      <div class="w3-quarter"> <span class="w3-xxlarge">2000+</span> <br>
         Students Graduated </div>
       <div class="w3-quarter"> <span class="w3-xxlarge">100K+</span> <br>
         Teaching Hours </div>
@@ -222,7 +225,7 @@
             understand the values that matter much to them, such as hospitality,
             dignity and honor.</p>
         </div>
-        <div class="w3-col m6"> <img class="w3-image w3-round-large" srcset="../webp/Mission_small.webp 350w, ../webp/Mission.webp 700w" sizes="(max-width: 600px) 350px, 700px" src="../webp/Mission.webp"
+        <div class="w3-col m6"> <img class="w3-image w3-round-large" srcset="webp/Mission_small.webp 350w, webp/Mission.webp 700w" sizes="(max-width: 600px) 350px, 700px" src="webp/Mission.webp"
 
             alt="Mission"> </div>
       </div>
@@ -280,16 +283,16 @@
         <div style="margin-top:48px">
           <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
             Green Tower, Haram, Giza, Egypt.</p>
-          <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> (+2)
-            012 1274 6489</p>
-          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
-            mail.sedracenter@gmail.com</p>
-          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
-            mail.sedracenter@yahoo.com</p>
+            <p><i onclick='window.open("https://api.whatsapp.com/send?phone=+201212746489")'class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 01212746489 (2+)</p>
+            <p><i onclick='window.open("mailto:mail.sedracenter@gmail.com")'class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+              mail.sedracenter@gmail.com</p>
+            <p><i onclick='window.open("mailto:mail.sedracenter@yahoo.com")'class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+              mail.sedracenter@yahoo.com</p>
           <br>
           <form name="contact" method="POST" data-netlify="true">
             <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
             <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-border" type="text" placeholder="Mobile/Phone" required name="Mobile"></p>
             <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
             <p>
               <button class="w3-button w3-black" type="submit">
